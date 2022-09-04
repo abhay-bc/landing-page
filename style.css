@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+}
+
+.flex-col, .flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction:column;
+}
+
+.top, .footer{
+    background-color: #1f2937;
+}
+
+.top{
+    padding: 10px 150px;
+}
+
+.header{
+    align-items: center;
+}
+
+.header .item, .hero .item{
+    flex: 1;
+}
+
+.header .logo-txt{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header .link-txt{
+    color: #e5e7eb;
+    justify-content: space-evenly;
+    font-size: 18px;
+}
+
+.hero{
+    margin: 100px 0;
+    gap: 40px;
+}
+
+.hero .item{
+    flex: 1;
+}
+
+.hero .main{
+    color: #f9faf8;
+}
+
+.hero h1{
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero .main p{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 6px 0;
+}
+
+.hero button{
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 5px 30px;
+    background-color: #3882f6;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+}
+/* 
+.hero .secondary{
+    flex-grow: 1;
+} */
+
+.secondary img{
+    width: 350px;
+}
+
+.info{
+    padding: 10px 200px;
+}
+
+.info .flex{
+    padding: 20px 20px 50px;
+    justify-content: space-evenly;
+}
+
+.info .card{
+    align-items: center;
+    width: 180px;
+}
+
+.info .box{
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 8px;
+}
+
+.info p{
+    text-align: center;
+    font-size: 16px;
+}
+
+.info h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    padding: 100px 200px;
+}
+
+.quote p{
+    color: #1f2937;
+    margin: 4px;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.quote p.italic{
+    font-size: 36px;
+}
+
+.quote .bold{
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.call-out{
+    color: #f9faf8;
+    padding: 100px 150px;
+}
+
+.call-out .flex{
+    background-color: #3882f6;
+    padding: 30px 50px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.call-action h2{
+    margin: 0;
+}
+
+.sign-up button{
+    border:2px solid #f9faf8;
+    background-color: #3882f6;
+    color:#f9faf8;
+    padding: 5px 35px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.footer{
+    background-color: #1f2937;
+    margin: 0;
+    padding: 10px;
+    color: white;
+    align-items: center;
+}
+
+.footer p{
+    text-align: center;
+    flex: 1;
+}
